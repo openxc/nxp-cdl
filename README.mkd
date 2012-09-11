@@ -1,0 +1,12 @@
+NXP Common Driver Library for LPCxxxx
+====================
+
+This repository includes the CDL released with the nxpUSBlib package. The code
+is provided by NXP and licensed by them as well - it is provided here only for
+accessibility and to track a few minor bug fixes.
+
+Changes
+========
+
+* Remove unused variables
+* Add missing #include to use vsprintf without warnings.
