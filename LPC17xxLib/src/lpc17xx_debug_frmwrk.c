@@ -241,7 +241,6 @@ void  _printf (const  char *format, ...)
 {
    static  char  buffer[512 + 1];
            va_list     vArgs;
-           char	*tmp;
    va_start(vArgs, format);
    vsprintf((char *)buffer, (char const *)format, vArgs);
    va_end(vArgs);
