@@ -46,7 +46,7 @@
 #define _DBH16(x)	 _db_hex_16(DEBUG_UART_PORT, x)
 #define _DBH32(x)	 _db_hex_32(DEBUG_UART_PORT, x)
 #define _DG			_db_get_char(DEBUG_UART_PORT)
-//void  _printf (const  char *format, ...);
+void  _printf (const  char *format, ...);
 
 extern void (*_db_msg)(LPC_UART_TypeDef *UARTx, const void *s);
 extern void (*_db_msg_)(LPC_UART_TypeDef *UARTx, const void *s);
